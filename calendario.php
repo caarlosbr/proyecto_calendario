@@ -132,6 +132,9 @@
 
     echo "</tr>";
     echo "</table>";
+     echo "<div>";
+     echo "<a href='https://github.com/caarlosbr/proyectos_dwes/blob/main/calendario.php'>Ver código</a>";
+     echo "</div>";
 ?>
 
 </body>
