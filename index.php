@@ -1,3 +1,18 @@
+<?php
+    /**
+    * Calendario .
+    *
+    * @author Carlos Borreguero Redondo <a24boreca@iesgrancapitan.org>
+    * @version 8.3.6
+    * @date 2024-09-29
+    */
+    
+    $aEjercicios = array (
+            "calendario" => array (
+                "calendario.php")
+        );
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,10 +43,6 @@
     
     <h1>DWES Carlos Borreguero Redondo</h1>
     <?php
-        $aEjercicios = array (
-            "calendario" => array (
-                "calendario.php")
-        );
         
     foreach ($aEjercicios as $proyectos => $proyecto){
         foreach ($proyecto as $ejercicio){
