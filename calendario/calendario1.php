@@ -119,7 +119,7 @@
     echo "</table>";
 
      echo "<div>";
-     echo "<a href='https://github.com/caarlosbr/proyectos_dwes/blob/main/calendario.php'>Ver código</a>";
+     echo "<a href='https://github.com/caarlosbr/proyecto_calendario/blob/main/calendario/calendario1.php'>Ver código</a>";
      echo "</div>";
 ?>
 

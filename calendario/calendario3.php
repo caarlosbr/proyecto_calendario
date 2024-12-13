@@ -145,6 +145,7 @@ if (isset($_GET['fecha'])) {
         ?>
         </tr>
     </table>
+    <button type="button"><a href="https://github.com/caarlosbr/proyecto_calendario/blob/main/calendario/calendario3.php">Ver código</a></button>
 
 </body>
 </html>
