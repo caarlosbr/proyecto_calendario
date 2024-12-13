@@ -41,11 +41,15 @@
             background-color: green;
             color: white;
         }
+        .festivoLocal{
+            background-color: #cf7584;
+        }
     </style>
 </head>
 <body>
 
 <?php
+
     $mesManual = 10;  
     $anioActual = date('Y'); 
     $diaActual = date('j');
@@ -89,13 +93,13 @@
 
     while ($dia <= $totalDiasMes) {
 
-        $esFestivo = in_array("$mesManual-$dia", $festivos);
+        $esFestivo = in_array("$mesManual-$dia", $festivos) || in_array("Domingo", $diasSemana);
 
-
+        $esDomingo = (date('N', strtotime("$anioActual-$mesManual-$dia")) ==7);
         $esHoy = ($dia == $diaActual && $mesManual == $mesActual);
 
         $clase = '';
-        if ($esFestivo) {
+        if ($esFestivo || $esDomingo) {
             $clase = 'festivo';
         } elseif ($esHoy) {
             $clase = 'hoy';

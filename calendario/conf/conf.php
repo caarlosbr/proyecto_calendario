@@ -9,10 +9,14 @@
         $festivos = array(
             '1-1',   // 1 de enero-Año Nuevo
             '1-6',   // 6 de enero-Epifanía del Señor
+            '2-28',  // 28 de febrero dia andalucia
+            '3-28',  // 28 de marzo Jueves Santo
             '3-29',  // 29 de marzo-Viernes Santo
             '5-1',   // 1 de mayo-Fiesta del Trabajo
             '8-15',  // 15 de agosto-Asunción de la Virgen
+            '9-9',   // Dia de la fuensanta
             '10-12', // 12 de octubre-Fiesta Nacional de España
+            '10-24', // 24 de Octubre San Rafael
             '11-1',  // 1 de noviembre Todos los Santos
             '12-6',  // 6 de diciembre-Día de la Constitución
             '12-25'  // 25 de diciembre-Navidad

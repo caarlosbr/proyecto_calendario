@@ -46,7 +46,7 @@
         
     foreach ($aEjercicios as $proyectos => $proyecto){
         foreach ($proyecto as $ejercicio){
-            echo "<li><a href='http://192.168.1.89/proyectos_dwes/$proyectos/$ejercicio'>$proyectos - $ejercicio</a></li><br>";                          
+            echo "<li><a href='http://192.168.116.56/proyectos_dwes/$proyectos/$ejercicio'>$proyectos - $ejercicio</a></li><br>";                          
         }                  
     }
 
